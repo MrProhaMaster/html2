@@ -1,0 +1,42 @@
+body {
+    font-family: arial, sans-serif;
+    font-size: 16px;
+    line-height: 26px; /* Расстояние между строк для всех абзацев */
+}
+
+a {
+    color: #349bdf;
+}
+
+figure {
+    width: 220px;
+    text-align: center;
+    padding: 18px; /* Внутренний отступ со всех сторон */
+    border: 2px solid #e0e4e8; /* Сплошная рамка шириной 2px и цветом #e0e4e8 */
+    margin: 20px 0; /* Внешний отступ сверху и снизу */
+}
+
+.figure-cathedral {
+    float: right;
+    margin-left: 40px; /* Внешний отступ слева 40px */
+    margin-right: 0; /* Внешний отступ справа 0 */
+}
+
+.figure-nasdaq {
+    float: left;
+    margin-right: 40px; /* Внешний отступ справа 40px */
+    margin-left: 0; /* Внешний отступ слева 0 */
+}
+
+figcaption {
+    font-size: 13px; /* Размер шрифта 13px */
+    margin-top: 10px; /* Внешний отступ сверху 10px */
+}
+
+p {
+    line-height: 26px; /* Расстояние между строк */
+}
+
+ul, ol {
+    line-height: 22px; /* Расстояние между строк для всех списков */
+}
